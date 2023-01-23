@@ -1,0 +1,66 @@
+:root {
+    --dark: #241f31;
+}
+
+body {
+    background-color: var(--dark);
+}
+address {
+    text-align: end;
+    color: var(--dark);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+#logo {
+    border-radius: 50%;
+}
+#logo:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+#logoAnchor {
+    text-align: center;
+    display: block;
+}
+#title {
+    text-align: center;
+    color: var(--dark);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+hr {
+    border: 1px solid var(--dark);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}   
+h2 {
+    color: var(--dark);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    text-align: center;
+}
+#meParagraph {
+    color: var(--dark);
+    font-size: large;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    text-align: center;
+    
+}
+.pageAnchor {
+    text-align: center;
+    display: block;
+}
+.pageIcon {
+    width: 200px;
+    background-color: var(--dark);
+}
+.pageAnchor:hover {
+    background-color: var(--dark);
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+.contact {
+    text-align: center;
+
+}
